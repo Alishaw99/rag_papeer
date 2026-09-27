@@ -2,9 +2,7 @@ import os
 import sqlite3
 import warnings
 from typing import Annotated
-
 warnings.filterwarnings("ignore", message="The default value of `allowed_objects`")
-
 from dotenv import load_dotenv
 from langchain_core.documents import Document
 from langchain_core.messages import AIMessage, HumanMessage, ToolMessage
